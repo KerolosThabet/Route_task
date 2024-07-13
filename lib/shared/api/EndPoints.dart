@@ -1,3 +1,3 @@
 class EndPoint {
-  static const String ProductsEndPoint ="/api/v1/products";
+  static const String ProductsEndPoint ="/products";
 }
