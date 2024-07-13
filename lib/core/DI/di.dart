@@ -1,6 +1,6 @@
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
-import 'package:route_task/shared/DI/di.config.dart';
+import 'package:route_task/core/DI/di.config.dart';
 
 final getIt = GetIt.instance;
 

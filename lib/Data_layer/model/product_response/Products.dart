@@ -1,3 +1,4 @@
+import '../../../domain_layer/Entites/product_Entity.dart';
 import 'Dimensions.dart';
 import 'Reviews.dart';
 import 'Meta.dart';
@@ -134,5 +135,17 @@ class Product {
     map['thumbnail'] = thumbnail;
     return map;
   }
+
+  ProductEntity toProductEntity (){
+    return ProductEntity(
+        id: id ,
+        title: title,
+        price: price,
+        description: description,
+        discountPercentage: discountPercentage,
+        rating: rating,images: images
+    );
+  }
+
 
 }
